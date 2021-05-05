@@ -1,0 +1,52 @@
+@font-face {
+    font-family: c64;
+    src: url(font.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: c64;
+    color: white;
+}
+
+#all {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(95, 69, 244);
+}
+
+#labirynt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+}
+
+#komorka {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
+
+#wygrana {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: max-content;
+    height: max-content;
+    border: 10px double rgb(37, 15, 161);
+    color: rgb(37, 15, 161);
+    text-align: center;
+}
